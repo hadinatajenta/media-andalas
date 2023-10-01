@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f9fa;
+}
+/** FORM */
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/** TITLE FORM */
+.title-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.title-form h1 {
+    font-size: 30px;
+    color: #141f3f;
+    margin-bottom: 10px;
+}
+.title-form p {
+    font-size: 14px;
+    color: #96a0b5;
+    margin-bottom: 10px;
+}
+
+/** INPUT FORM */
+form .input-box {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box .box {
+    position: relative;
+    margin: 10px;
+}
+
+.box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #5570d8;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #152241;
+    font-weight: 300;
+    background-color: none;
+}
+
+.box label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #3554d1;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: top 0.3s, left 0.3s;
+    pointer-events: none;
+}
+
+/** ANIMATED STYLE FORM */
+.box input:focus ~ label,
+.box input:valid ~ label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    background-color: white;
+    padding: 0 5px;
+    color: #162341;
+}
+
+/** ANIMATED STYLE FORM */
+
+.box input:focus ~ label {
+    color: #162341;
+}
+.box input:valid ~ label {
+    color: #162341;
+}
+
+/** ERROR MESSAGE */
+.invalid-feedback {
+    color: red;
+    margin-top: 5px;
+}
+
+/** BUTTON FORM */
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    padding: 0 10px;
+}
+
+.button-group button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #3554d1;
+    cursor: pointer;
+}
+.button-group a.btn.btn-link {
+    color: #3554d1;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.button-group a.btn.btn-link:hover {
+    color: #5570d8;
+    text-decoration: underline;
+}
+
+.email-label.active {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    background-color: white;
+    padding: 0 5px;
+    color: #162341;
+}

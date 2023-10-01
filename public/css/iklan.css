@@ -1,0 +1,7 @@
+.custom-file-label::after {
+    content: "Browse";
+}
+.row.mb-3.scroll {
+    overflow-x: scroll;
+    white-space: nowrap;
+}

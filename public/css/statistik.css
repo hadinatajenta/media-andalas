@@ -1,0 +1,72 @@
+#myChart {
+    height: 100%;
+}
+
+tbody,
+tfoot,
+th,
+thead {
+    border-style: none !important;
+}
+
+.scrollable-table {
+    overflow-y: auto;
+}
+.card {
+    border: 1px solid #eaeaea !important;
+}
+.card-header {
+    background-color: transparent !important;
+    border-bottom: none !important;
+}
+.tayang {
+    background-color: #ebf4ff;
+    color: #027aff;
+    border-radius: 50%;
+}
+.uang {
+    background-color: #e6faf4;
+    color: #35d2a7;
+    border-radius: 50%;
+}
+
+.ttayang {
+    background-color: #fdecf5;
+    color: #e742a1;
+    border-radius: 50%;
+}
+.input-cari {
+    border-radius: 10px;
+    border: 2px solid #eaeaea;
+}
+.btn-outline-success {
+    border: 1px solid #5a7af9 !important;
+    color: #5a7af9 !important;
+}
+.form-control {
+    border: 1px solid #eaeaea !important;
+}
+.btn-outline-success:hover {
+    background-color: #5a7af9 !important;
+    color: white !important;
+}
+.kategori {
+    background-color: #fff3e6;
+    color: #ff8700;
+    border-radius: 50%;
+}
+.waktu {
+    background-color: #fbced0;
+    color: #ec4e51;
+    border-radius: 50%;
+}
+.ceklis {
+    background-color: #00afb9;
+    color: #e6f7f8;
+    border-radius: 50%;
+}
+.notif:hover {
+    transform: scale(1.03); /* This increases the size of the card slightly */
+    transition: transform 0.2s; /* Animation to smooth the size increase */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19); /* Adds shadow to the card */
+}
